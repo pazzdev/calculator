@@ -16,7 +16,7 @@ All css written in public/calculator.css and imported in App component
 
 ## how long did you spend creating the application
 ```
-spends 04:30 Hours
+spended approx 04:30 Hours 
 ```
 
 ## any assumptions made
@@ -31,12 +31,12 @@ N/A
 
 ## what part of the application are you most proud of (if any)
 ```
-Implemented all css by my self, for showing css skills
+I did not used ui libraries and Implemented all css by my self, for showing css skills
 ```
 
 ## any improvements you would make
 ```
-Can use Material UI or bootstrap to reduce time
+Can use Material UI or bootstrap to reduce time in design
 ```
 
 ## any deviation(s) from the requirements
