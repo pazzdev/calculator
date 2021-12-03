@@ -1,0 +1,158 @@
+
+#calcWrapper {
+  width: 100%;
+  margin: auto;
+  box-sizing: border-box;
+  border-radius: 5px;
+  height: 700px;
+  overflow: hidden;
+}
+
+#display {
+  width: 100%;
+  border: 1px solid #ebebeb;
+  border-radius: 8px;
+  padding: 10px 14px 0 10px;
+  box-sizing: border-box;
+  float: right;
+  margin-bottom: 8px;
+  height:72px;
+}
+.calc-btn-block{
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap; 
+  width:100%;
+}
+.calc-box{
+  display: inline-flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap:wrap;
+}
+.scientific-box{
+  float: left;
+  width: 42.857142857142854%;
+}
+.math-box{
+  float: right;
+  width: 57.142857142857139%;
+}
+.math-box .calc-button{
+  font-size:14px;
+  font-family: arial,sans-serif;
+}
+.math-box .calc-button:active{
+  box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+}
+.preview-result{
+  color: #70757a;
+  float: left;
+  width: 24px;
+  height:24px;
+}
+.preview-result svg{
+  fill: #70757a;
+}
+#current-value{
+  width: 99.75%;
+  padding-top:7px;
+}
+
+#current-display,  #answer-display{
+    font-family: arial,sans-serif;
+    text-align: right;
+    margin-bottom: 0px;
+    overflow:hidden;
+    text-overflow: ellipsis;
+}
+#current-display{
+    display: flex;
+    flex-direction: row;
+    font-size: 30px;
+    color:#202124;
+}
+
+#answer-display{
+    font-size: 13px;
+    color: #70757A;
+    border: none;
+}
+#answer-display p{
+  padding:0;
+  margin:0;
+}
+div#current-display #current-value{
+  margin:0;
+  font-family: arial,sans-serif;
+}
+
+#calculator-buttons {
+  float: left;
+  cursor: pointer;
+  text-align: center;
+  margin: 2px 0;
+  box-sizing: border-box;
+  position: relative;
+  border-radius: 4px;
+  flex: 0 0 25%;
+  max-width: 25%;
+}
+.scientific-box #calculator-buttons{
+  flex: 0 0 33.33%;
+  max-width: 33.33%;
+}
+.calc-button{
+  width: 96%;
+  height: 100%;
+  font-family: arial,sans-serif;
+  text-align: center;
+  font-size: 13px;
+  color: #70757a;
+  line-height: 34px;
+  padding:0;
+}
+
+#calculator-buttons.rdButton{
+flex:0 0 66.66%;
+max-width:66.66%;
+font-family: arial,sans-serif;
+}
+.rdButton button{
+word-spacing: 30px;
+}
+.operatorButton, .otherButton, .equalButton{
+  background: #dadce0;
+  color: #202124;
+  border: 1px solid #dadce0;
+  border-radius: 4px;
+  box-sizing: border-box;
+  cursor:pointer;
+  font-family: arial,sans-serif;
+}
+.operatorButton:active{
+  border-color: #70757a;
+  box-shadow: 0 1px 6px rgb(32 33 36 / 28%);
+}
+.otherButton{
+background: #f1f3f4;
+color: #202124;
+border: 1px solid #f1f3f4;
+}
+.equalButton{
+background: #4285f4;
+color: #fff;
+border: 1px solid #4285f4;
+}
+#calculator-buttons .mathSymbolButton{
+  font-size: 18px;
+}
+
+@media screen and (min-width: 768px){
+  #calcWrapper {
+      width: 652px;
+      max-width:100%;
+      margin: auto;
+  }
+}
